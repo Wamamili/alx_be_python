@@ -1,4 +1,4 @@
-# Define the number of hours
+# the number of hours
 hours = 2
 
 # Convert hours to seconds

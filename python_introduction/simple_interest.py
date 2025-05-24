@@ -1,4 +1,4 @@
-# Define the variables
+# This script calculates simple interest based on the formula:
 principal = 1000
 rate = 0.05
 time = 3
