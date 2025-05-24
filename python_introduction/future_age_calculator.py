@@ -1,4 +1,4 @@
-# enter the user for their current age
+# this script claculates the user's age in the year 2050 based on their current age.
 current_age = int(input("How old are you? "))
 
 # Calculate age in the year 2050
