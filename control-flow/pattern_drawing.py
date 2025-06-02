@@ -1,8 +1,8 @@
-# pattern_drawing: Draws a square pattern of asterisks (*)
+# pattern_drawing: Draws a square pattern of *
 
 def main():
     try:
-        # Prompt the user for a positive integer
+        # Prompt the user for the size of the pattern
         size = int(input("Enter the size of the pattern: "))
 
         if size <= 0:
