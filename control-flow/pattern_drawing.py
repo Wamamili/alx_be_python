@@ -1,4 +1,4 @@
-pattern_drawing: Draws a square pattern of asterisks (*)
+# pattern_drawing: Draws a square pattern of asterisks (*)
 
 def main():
     try:
