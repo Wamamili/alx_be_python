@@ -2,7 +2,7 @@
 # Description: Provides clothing recommendations based on current weather conditions.
 
 def main():
-    # Prompt user for input
+    # user input for weather condition
     weather = input("What's the weather like today? (sunny/rainy/cold): ").strip().lower()
 
     # Provide clothing recommendation
