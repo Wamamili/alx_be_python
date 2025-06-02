@@ -1,11 +1,10 @@
-# File: weather_advice.py
-# Description: Provides clothing recommendations based on current weather conditions.
+# Weather advice: provides clothing recommendations based on current weather conditions.
 
 def main():
     # user input for weather condition
     weather = input("What's the weather like today? (sunny/rainy/cold): ").strip().lower()
 
-    # Provide clothing recommendation
+    # Clothing recommendation
     if weather == "sunny":
         print("Wear a t-shirt and sunglasses.")
     elif weather == "rainy":
