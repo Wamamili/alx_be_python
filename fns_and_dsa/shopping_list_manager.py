@@ -1,19 +1,18 @@
 def display_menu():
-    print("\nShopping List Manager")
+    print("Shopping List Manager")
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View List")
     print("4. Exit")
 
 def main():
-    shopping_list = []  # initializing list
+    shopping_list = []
 
     while True:
-        display_menu()  # display_menu function called
+        display_menu()
 
         choice = input("Enter your choice: ").strip()
 
-        # choice is a digit and convert to int
         if not choice.isdigit():
             print("Invalid choice. Please enter a number.")
             continue
@@ -53,3 +52,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+# This code implements a simple shopping list manager that allows users to add, remove, and view items in their shopping list.
+# It includes a menu-driven interface for user interaction.
