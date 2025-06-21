@@ -1,3 +1,5 @@
+# library_system.py
+
 class Book:
     def __init__(self, title, author):
         self.title = title
@@ -33,7 +35,7 @@ class Library:
         if isinstance(book, Book):
             self.books.append(book)
         else:
-            print("Only instances of Book or its subclasses can be added.")
+            print("Only Book instances can be added to the library.")
 
     def list_books(self):
         for book in self.books:
